@@ -1,0 +1,44 @@
+body {
+  background-color: #430d27;
+  padding: 0;
+  margin: 0;
+}
+
+.anime {
+  height: 824px;
+  color: #f85959;
+}
+
+.anime img {
+  width: 800px;
+  margin-left: 10px;
+  height: 450px;
+}
+
+.anime .border {
+  border: solid black 3px;
+}
+
+.anime h4 {
+  font-size: 20px;
+  background-color: #071a52;
+  color: #17b978;
+  margin-top: 0;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.anime p {
+  margin-left: 10px;
+  font-size: 20px;
+  line-height: 2em;
+}
+
+a {
+  position: relative;
+  bottom: 80px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #00d1ff;
+}
+/*# sourceMappingURL=style2.css.map */
