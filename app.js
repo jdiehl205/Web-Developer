@@ -2,7 +2,9 @@ let search = document.querySelector("input"),
     div = document.querySelectorAll("div")[1],
     a = document.querySelector(".again"),
     title = document.querySelector("h1"),
-    link = document.head.querySelector("link");
+    link = document.head.querySelector("link"),
+    ul = document.querySelector("ul"),
+    h4 = document.querySelector("h4");
 
     let style = document.createElement("link");
 
@@ -43,6 +45,8 @@ function styles(){
     a.style.display = "block";
     div.style.display = "block";
     title.style.display = "none";
+    ul.style.display = "none";
+    h4.style.display = "none";
     document.head.removeChild(link);
     document.head.appendChild(style);
 }
@@ -52,6 +56,8 @@ a.addEventListener("click", () => {
     search.style.display = "block";
     a.style.display = "none";
     title.style.display = "block";
+    ul.style.display = "block";
+    h4.style.display = "block";
     document.head.appendChild(link);
     document.head.removeChild(style);
 });
