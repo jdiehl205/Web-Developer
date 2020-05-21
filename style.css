@@ -29,4 +29,20 @@ body {
 .again {
   display: none;
 }
+
+h4{
+    border-bottom: solid black 5px;
+    width: 93px;
+}
+
+ul, h4{
+    position: relative;
+    top: 430px;
+    left: 650px;
+    list-style-type: none;
+    li{
+        position: relative;
+        left: -40px;
+    }
+}
 /*# sourceMappingURL=style.css.map */
